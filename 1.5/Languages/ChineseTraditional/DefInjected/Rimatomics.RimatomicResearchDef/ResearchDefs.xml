@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Optimized payload packing allows more room inside the missile for thrust generating components, resulting in massive velocity increases. -->
+  <RimatomicsNukesGoBrrr_SPM.ResearchDesc>優化的彈頭包裝使飛彈內部有更多空間容納産生推力的組件，從而大幅提高速度。</RimatomicsNukesGoBrrr_SPM.ResearchDesc>
+  <!-- EN: Superior packing methodology upgrades are now complete, all strategic missiles are now automatically designed for increased world travel speed. -->
+  <RimatomicsNukesGoBrrr_SPM.ResearchDescDisc>彈頭高效包裝方法升級已完成，所有戰略飛彈現在都會自動設計為更高的全球飛行速度。</RimatomicsNukesGoBrrr_SPM.ResearchDescDisc>
+  <!-- EN: Superior Packing Methodology -->
+  <RimatomicsNukesGoBrrr_SPM.ResearchLabel>彈頭高效包裝方法</RimatomicsNukesGoBrrr_SPM.ResearchLabel>
+  
+</LanguageData>
