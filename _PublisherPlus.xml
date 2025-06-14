@@ -3,7 +3,9 @@
 <Configuration>
   <Excluded>
     <exclude>.git</exclude>
-    <exclude>README.md</exclude>
     <exclude>Source</exclude>
+    <exclude>.editorconfig</exclude>
+    <exclude>.gitignore</exclude>
+    <exclude>README.md</exclude>
   </Excluded>
 </Configuration>

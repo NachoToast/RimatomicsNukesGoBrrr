@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Research packing methods -->
+  <RimatomicsNukesGoBrrr_SPM1.label>弹头高效包装方法原理</RimatomicsNukesGoBrrr_SPM1.label>
+  <!-- EN: A skilled researcher must plan a series of tests which can be performed on missile payloads to collect data for analysis. -->
+  <RimatomicsNukesGoBrrr_SPM1.description>由高智识的殖民者对洲际弹道导弹进行实时观测、调试，收集数据进行分析，以求找出优化升级方案。</RimatomicsNukesGoBrrr_SPM1.description>
+  
+  <!-- EN: Gather weapons data -->
+  <RimatomicsNukesGoBrrr_SPM2.label>收集武器数据</RimatomicsNukesGoBrrr_SPM2.label>
+  <!-- EN: Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum. -->
+  <RimatomicsNukesGoBrrr_SPM2.description>使用聚变打击任何目标并收集数据，分析发射是否成功，是否成功引爆目标，是否造成最大破坏。</RimatomicsNukesGoBrrr_SPM2.description>
+  
+  <!-- EN: Research packing methods -->
+  <RimatomicsNukesGoBrrr_SPM3.label>研发弹头高效包装方法</RimatomicsNukesGoBrrr_SPM3.label>
+  <!-- EN: Analyze the data gathered and finalize the designs for the missiles. -->
+  <RimatomicsNukesGoBrrr_SPM3.description>分析收集的数据以最终确定弹头高效包装方法。</RimatomicsNukesGoBrrr_SPM3.description>
+  
+</LanguageData>

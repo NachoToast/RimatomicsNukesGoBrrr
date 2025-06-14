@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+    <Def Class="Rimatomics.RimatomicResearchDef">
+        <defName>RimatomicsNukesGoBrrr_SPM</defName>
+        <ResearchLabel>Superior Packing Methodology</ResearchLabel>
+        <UnlockStep>RimatomicsNukesGoBrrr_SPM1</UnlockStep>
+        <Upgrade>true</Upgrade>
+        <BlueprintUpgrade>true</BlueprintUpgrade>
+        <ProjTypeLabel>Upgrade</ProjTypeLabel>
+        <ResearchDesc>Optimized payload packing allows more room inside the missile for thrust generating components, resulting in massive velocity increases.</ResearchDesc>
+        <ResearchDescDisc>Superior packing methodology upgrades are now complete, all strategic missiles are now automatically designed for increased world travel speed.</ResearchDescDisc>
+        <price>2000</price>
+        <previewImageURL>Rimatomics/Things/Resources/plutoniumSeeder</previewImageURL>
+        <Steps>
+            <li>RimatomicsNukesGoBrrr_SPM1</li>
+            <li>RimatomicsNukesGoBrrr_SPM2</li>
+            <li>RimatomicsNukesGoBrrr_SPM3</li>
+        </Steps>
+        <prerequisites>
+            <li>ICBM</li>
+        </prerequisites>
+    </Def>
+
+    <Def Class="Rimatomics.ResearchStepDef">
+        <defName>RimatomicsNukesGoBrrr_SPM1</defName>
+        <PointCost>2500</PointCost>
+        <label>Research packing methods</label>
+        <description>A skilled researcher must plan a series of tests which can be performed on missile payloads to collect data for analysis.</description>
+        <WorkType>Research</WorkType>
+        <SkillLevel>8</SkillLevel>
+    </Def>
+
+    <Def Class="Rimatomics.ResearchStepDef">
+        <defName>RimatomicsNukesGoBrrr_SPM2</defName>
+        <PointCost>30</PointCost>
+        <label>Gather weapons data</label>
+        <description>Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.</description>
+        <GatherDataFor>ICBMfission</GatherDataFor>
+    </Def>
+
+    <Def Class="Rimatomics.ResearchStepDef">
+        <defName>RimatomicsNukesGoBrrr_SPM3</defName>
+        <PointCost>2500</PointCost>
+        <label>Research packing methods</label>
+        <description>Analyze the data gathered and finalize the designs for the missiles.</description>
+        <WorkType>Research</WorkType>
+        <SkillLevel>8</SkillLevel>
+    </Def>
+
+</Defs>

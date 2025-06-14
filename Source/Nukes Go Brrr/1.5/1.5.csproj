@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AnalysisLevel>preview-recommended</AnalysisLevel>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <ErrorReport>prompt</ErrorReport>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>preview</LangVersion>
+    <NoWarn>1701;1702;CS1591;CA2211</NoWarn>
+    <Optimize>true</Optimize>
+    <OutDir>..\..\..\1.5\Assemblies</OutDir>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <TargetFramework>net48</TargetFramework>
+    <WarningLevel>4</WarningLevel>
+    <AssemblyName>NukesGoBrrr</AssemblyName>
+    <RootNamespace>NukesGoBrrr</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.*" />
+    <PackageReference Include="Lib.Harmony" Version="2.*" ExcludeAssets="runtime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rimatomics">
+      <HintPath>..\..\..\..\..\..\..\workshop\content\294100\1127530465\1.5\Assemblies\Rimatomics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
